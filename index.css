@@ -1,0 +1,193 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Typography & Icons */
+
+h1 {
+    color: #0F8CDF;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+i, .delete-btn, .reply-delete-btn {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+i {
+    font-size: 15px;
+}
+
+.fa-solid {
+    color: #999;
+}
+
+.liked {
+    color: red;
+}
+
+.retweeted {
+    color: limegreen;
+}
+
+/* Layout */
+
+main, header {
+    width: 290px;
+    margin: 0 auto;
+}
+
+header {
+    padding-bottom: 25px;
+}
+
+.tweet-input-area,
+.tweet-reply.tweet-input-area {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Buttons & Inputs */
+
+button,
+.reply-btn {
+    background-color: #1DA1F2;
+    border: none;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button:hover,
+.reply-btn:hover {
+    background-color: #0d8ddb;
+}
+
+textarea,
+.reply-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    resize: none;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+textarea {
+    height: 60px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.reply-input {
+    height: 60px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.reply-input-area {
+    margin-top: 10px;
+}
+
+/* Delete buttons */
+
+.delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    color: #888;
+}
+
+.delete-btn:hover,
+.reply-delete-btn:hover {
+    color: red;
+}
+
+.reply-delete-btn {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    color: #888;
+    font-size: 14px;
+}
+
+/* Tweets */
+
+.tweet, .tweet-reply {
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0;
+    width: 100%;
+    position: relative;
+}
+
+.tweet {
+    margin: 15px 0;
+}
+
+.tweet-inner {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.tweet-text {
+    width: 207px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.tweet-details {
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.tweet-detail {
+    display: flex;
+    gap: 4px;
+}
+
+.tweet-reply {
+    margin: 10px 0 10px 40px;
+    width: 80%;
+}
+
+.tweet-reply .tweet-details {
+    margin-top: 10px;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Utility */
+
+.handle {
+    font-size: 12px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Profile image */
+
+.profile-pic {
+    width: 48px;
+    height: 48px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid lightgray;
+}
