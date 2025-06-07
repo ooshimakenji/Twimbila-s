@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 export const tweetsData = [   
     {
         handle: `@Birongui 💎`,
-        profilePic: `images/bilaface1.png`,
+        profilePic: `/images/bilaface1.png`,
         likes: 27,
         retweets: 10,
         tweetText: `ワンワン！今日、公園でうんちしたけど、掃除してくれなかった！私はバンディダだよ！🐾😎`,
@@ -21,12 +21,12 @@ export const tweetsData = [
         replies: [
                   {
                 handle: `@Bibi 🐾`,
-                profilePic: `images/bilazul1.png`,
+                profilePic: `/images/bilazul1.png`,
                 tweetText: `I'm ready! Let's fetch some space bones! 🚀🐶`,
             },
                   {
                handle: `@LilBila 🐕`,
-               profilePic: `images/biladeitada.jpeg`,
+               profilePic: `/images/biladeitada.jpeg`,
                tweetText: `Count me in! No pup left behind! 🐾✨`,
             },
         ],
@@ -36,19 +36,19 @@ export const tweetsData = [
     },
         {
         handle: `@CodeWithBila12`,
-        profilePic: `images/bila-rabinho.png`,
+        profilePic: `/images/bila-rabinho.png`,
         likes: 10,
         retweets: 3,
         tweetText: `Am I still a real coder if I only know HTML? Woof! 🐾`,
         replies: [
             {
                 handle: `@Bibidev 🐾`,
-                profilePic: `images/bibi.png`,
+                profilePic: `/images/bibi.png`,
                 tweetText: `Woof woof! Of course you are! Every pup starts somewhere! 🐶✨`,
             },
            {
                 handle: `@Bossbili 🐕`,
-                profilePic: `images/lilbila.png`,
+                profilePic: `/images/lilbila.png`,
                 tweetText: `Doesn't matter the language—as long as you're wagging and coding! 🐾💻`,
             },
         ],
