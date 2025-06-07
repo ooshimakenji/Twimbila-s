@@ -14,7 +14,7 @@ export const tweetsData = [
     },    
     {
         handle: `@Billie  ✅`,
-        profilePic: `images/screenbila.png`,
+        profilePic: `/images/screenbila.png`,
         likes: 6500,
         retweets: 234,
         tweetText: `Woof woof! Who wants to join me on a one-way trip to Doggieland? 🐾🚀 No experience needed as a pawstronaut! Let's go!`,
